@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "expackage_pub"
+authors = [
+    {name = "me", email = "iavtomator@gmail.com"},
+    {name = "my cat", email = "hugme@my.home"}
+]
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+
+[project.urls]
+Home = "https://github.com/iAutomator/expackage"
